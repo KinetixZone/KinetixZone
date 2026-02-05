@@ -1,0 +1,1 @@
+export const storageService = { getUser: () => JSON.parse(localStorage.getItem('kinetix_user') || 'null'), saveUser: (u) => localStorage.setItem('kinetix_user', JSON.stringify(u)), logout: () => localStorage.removeItem('kinetix_user'), getStorageUsage: () => ({ usedKB: 0, percentage: 0 }), getTemplates: () => [], getExercises: () => [] };

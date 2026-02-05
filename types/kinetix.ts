@@ -1,1 +1,1 @@
-export type UserRole = 'coach' | 'client' | 'admin' | 'owner'; export interface User { id: string; name: string; email: string; role: UserRole; streak: number; isActive: boolean; }
+export enum Goal { PERFORMANCE = 'Rendimiento' } export enum UserLevel { ADVANCED = 'Avanzado' } export type UserRole = 'coach' | 'client' | 'admin' | 'owner'; export interface User { id: string; name: string; email: string; role: UserRole; streak: number; isActive: boolean; }

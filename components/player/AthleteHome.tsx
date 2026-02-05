@@ -1,0 +1,1 @@
+import React from 'react'; export const AthleteHome = ({ user }) => <div className="p-10"><h1>Bienvenido Atleta {user.name}</h1></div>;

@@ -1,0 +1,1 @@
+export const calendarService = { getScheduledSession: () => null, getEvents: () => [] };

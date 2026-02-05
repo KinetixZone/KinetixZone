@@ -1,0 +1,1 @@
+export const aiService = { isConfigured: !!process.env.API_KEY };

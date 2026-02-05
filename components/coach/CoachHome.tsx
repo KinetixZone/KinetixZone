@@ -1,0 +1,1 @@
+import React from 'react'; export const CoachHome = ({ onViewChange }) => <div className="p-10"><button onClick={() => onViewChange('admin_dashboard')} className="p-5 bg-blue-600 rounded-xl font-black uppercase">Consola Master</button></div>;
